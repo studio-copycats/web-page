@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Estudio Copycats</title>
+<head>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!--STICKY-->
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.sticky.js"></script>
+  <script>
+    $(window).load(function(){
+      $("#header").sticky({ topSpacing: 0 });
+    });
+  </script>
+ 
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/contenido.css">
+</head>
+
+<body>
+
+	<div id="header">
+		<div class="nav-container">
+			<img class="logo" src="img/logo.png">
+			<a href="javascript:;" class="toggle-nav"><img src="img/nav.jpg"></a>
+			<nav class="nav-collapse">
+			  <ul class="clear">
+			    <li><a href="#about">ABOUT</a></li>
+			    <li><a href="#porfolio">PORTFOLIO</a></li>
+			    <li><a href="#contact">CONTACT</a></li>
+			    <li><a href="#">ESPAÑOL</a></li>
+			  </ul>
+			</nav>
+		</div>
+	</div>
+
+
+<div class="clear">
+	<div class="container section1 ">
+	Jumbotron
+	</div><!--end of container-->
+</div><!--end of bg row-->
+
+<div class="section2 clear" id="about">
+	<div class="container">
+	About
+	</div><!--end of container-->
+</div><!--end of bg row-->
+
+<div class="section3 clear" id="portfolio">
+	<div class="container">
+	portfolio
+	</div><!--end of container-->
+</div><!--end of bg row-->
+
+<div class="section4 clear" id="contact">
+	<div class="container">
+	contact
+	</div><!--end of container-->
+</div><!--end of bg row-->
+
+
+	<script>
+	  $(".toggle-nav").click(function(){
+	      $('nav').slideToggle('fast');
+	   });
+	</script>
+
+</body>
+</html>
