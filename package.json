@@ -1,0 +1,25 @@
+{
+  "name": "copycats",
+  "version": "1.0.0",
+  "description": "web app",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PalumboN/copycats.git"
+  },
+  "author": "Marian Ono",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PalumboN/copycats/issues"
+  },
+  "homepage": "https://github.com/PalumboN/copycats#readme",
+  "dependencies": {
+    "consolidate": "^0.13.1",
+    "ejs": "^2.3.4",
+    "express": "^4.13.4"
+  }
+}
