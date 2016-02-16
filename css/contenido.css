@@ -1,35 +1,42 @@
-.section1
+p
 {
-  width: 100%;
-  height: 560px;
-  overflow: hidden;
-  /*background-color: #FEE37C;*/
-  background-image: url(img/midi.jpg); 
-  min-height: 100%;
+	font-size: 18px;
+	line-height: 1.4em;
 }
 
-.section2
+.text-white
 {
-	width: 100%;
-	height: 560px;
-	overflow: hidden;
-	background-color: lightblue;
+	color: #FFF;
 }
 
-.section3
+.text-black
 {
-	width: 100%;
-	height: 560px;
-	overflow: hidden;
-	background-color: pink;
+	color: #000;
 }
 
-.section4
+.text-justify
 {
-	width: 100%;
-	height: 560px;
-	overflow: hidden;
-	background-color: #88192F;
+	text-align: justify;
 }
 
+.text-center
+{
+	text-align: center;
+}
 
+.jumbotron
+{
+  color: #FFF; 
+  font-size: 50px;
+  line-height: 80px;
+  text-align: center;
+  text-shadow: 3px 3px 5px #000000;
+  position: relative;
+  top: 200px;
+}
+
+.presentation
+{
+	max-width:  900px;
+	margin: auto;
+}
