@@ -13,7 +13,7 @@ app.get('/', function(req, res){
   res.render('index');
 });
 
-app.use(express.favicon(__dirname + "favicon.ico")))
+// app.use(express.favicon(__dirname + "favicon.ico"));
 
 ["css", "font-awesome", "fonts", "img", "js"].forEach(function(it) {
   app.use("/" + it, express.static(__dirname + '/' + it));
