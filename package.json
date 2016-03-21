@@ -9,17 +9,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "githttps://github.com/PalumboN/copycats.git"
+    "url": "https://github.com/studio-copycats/web-page.git"
   },
   "author": "Marian Ono",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/PalumboN/copycats/issues"
+    "url": "https://github.com/studio-copycats/web-page/issues"
   },
-  "homepage": "https://github.com/PalumboN/copycats#readme",
+  "homepage": "https://github.com/studio-copycats/web-page#readme",
   "dependencies": {
     "consolidate": "^0.13.1",
     "ejs": "^2.3.4",
     "express": "^4.13.4"
+  },
+  "engines": {
+    "node": "0.12.7"
   }
 }
