@@ -3,7 +3,7 @@ var engines = require('consolidate');
 
 var app = express();
 
-var port = 3000;
+var port = process.env.port || 3000;
 
 app.engine('html', require('ejs').renderFile);
 app.set('views', __dirname);
