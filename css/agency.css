@@ -8,7 +8,7 @@ body
 }
 .text-primary
 {
-	color:#fed136
+	color:#FCAC18;
 }
 
 p
@@ -93,8 +93,8 @@ h1,h2,h3,h4,h5,h6
 .btn-xl
 {
 	color:#fff;
-	background-color:#fed136;
-	border-color:#fed136;
+	background-color:#573D82;
+	border-color:#573D82;
 	font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:uppercase;font-weight:700;border-radius:3px;font-size:18px;padding:20px 40px
 }
 
@@ -164,25 +164,25 @@ h1,h2,h3,h4,h5,h6
 	text-transform:uppercase;
 	font-weight:400;
 	letter-spacing:1px;
-	color:#fff
+	color:#ccc;
 }
 
 .navbar-default .nav li a:hover,.navbar-default .nav li a:focus
 {
 	color:#fed136;
-	outline:0
+	outline:0;
 }
 
 .navbar-default .navbar-nav>.active>a
 {
 	border-radius:0;
-	color:#fff;
-	background-color:#fed136
+	color:#573D82;
+	background-color: transparent;
 }
 .navbar-default .navbar-nav>.active>a:hover,.navbar-default .navbar-nav>.active>a:focus
 {
-	color:#fff;
-	background-color:#fec503
+	color:#fed136;
+	background-color: transparent
 }
 
 .video{
@@ -245,7 +245,7 @@ h1,h2,h3,h4,h5,h6
 
 header
 {
-	background-image:url(../img/bg1.jpg);
+	background-image:url(../img/bg.jpg);
 	background-repeat:none;
 	background-attachment:scroll;
 	background-position:center center;
@@ -687,9 +687,10 @@ aside.clients img
 section#contact
 {
 	background-color:#222;
-	background-image:url(../img/map-image.png);
+	background-image:url(../img/contact.jpg);
 	background-position:center;
-	background-repeat:no-repeat
+	background-repeat:no-repeat;
+	background-size:cover;
 }
 
 section#contact .section-heading
@@ -924,7 +925,8 @@ body
 		font-weight:700;
 		font-size:75px;
 		line-height:75px;
-		margin-bottom:50px
+		margin-bottom:50px;
+		font-size: -webkit-xxx-large
 	}
 
 	section
@@ -962,7 +964,8 @@ body
 
 	.navbar-default.navbar-shrink
 	{
-		background-color:#222;padding:10px 0
+		background-color: transparent;
+		padding:10px 0
 	}
 
 	.navbar-default.navbar-shrink .navbar-brand
