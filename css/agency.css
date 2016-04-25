@@ -123,8 +123,19 @@ h1,h2,h3,h4,h5,h6
 
 .navbar-default
 {
-	background-color:#222;
+	background-color: #222;
 	border-color:transparent
+}
+
+.navbar-header .logo1
+{
+	display: none;
+}
+
+.navbar-header .logo2
+{
+	display: block; 
+	width: 150px;
 }
 
 .navbar-default .navbar-brand
@@ -218,6 +229,17 @@ h1,h2,h3,h4,h5,h6
 		border:0
 	}
 
+	.navbar-header .logo1
+	{
+		width: 100px;
+		display: block;
+	}
+
+	.navbar-header .logo2
+	{
+		display: none;
+	}
+
 	.navbar-default .navbar-brand
 	{
 		font-size:2em;
@@ -274,7 +296,7 @@ header .intro-text .intro-heading
 {
 	font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:uppercase;
 	font-weight:700;
-	font-size:50px;
+	font-size:30px;
 	line-height:50px;
 	margin-bottom:25px
 }
