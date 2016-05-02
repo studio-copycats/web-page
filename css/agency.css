@@ -138,6 +138,11 @@ h1,h2,h3,h4,h5,h6
 	width: 150px;
 }
 
+.navbar-brand
+{
+	padding: 13px;
+}
+
 .navbar-default .navbar-brand
 {
 	color:#fed136;
@@ -231,8 +236,13 @@ h1,h2,h3,h4,h5,h6
 
 	.navbar-header .logo1
 	{
-		width: 100px;
+		width: 70px;
 		display: block;
+	}
+
+	.navbar-brand
+	{
+		padding: 0;
 	}
 
 	.navbar-header .logo2
@@ -986,7 +996,7 @@ body
 
 	.navbar-default.navbar-shrink
 	{
-		background-color: transparent;
+		background-color: #222;
 		padding:10px 0
 	}
 
