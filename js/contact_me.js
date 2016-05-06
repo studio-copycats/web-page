@@ -48,6 +48,12 @@ $(function() {
                     $('#success > .alert-danger').append('</div>');
                 },
             });
+            // Fail message
+            $('#success').html("<div class='alert alert-warning'>");
+            $('#success > .alert-warning').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
+                .append("</button>");
+            $('#success > .alert-warning').append("<strong>Sending message...");
+            $('#success > .alert-warning').append('</div>');
         },
         filter: function() {
             return $(this).is(":visible");
